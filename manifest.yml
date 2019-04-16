@@ -6,5 +6,5 @@ applications:
       - route: pal-tracker-pkrish.apps.evans.pal.pivotal.io
       - route: pal-tracker-ublink.apps.evans.pal.pivotal.io
     env:
-      WELCOME_MESSAGE: Hello from Cloud Foundry-Updated
+      WELCOME_MESSAGE: Hello from the review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
