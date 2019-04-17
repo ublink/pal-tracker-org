@@ -27,6 +27,7 @@ public class TimeEntryController {
         TimeEntry createdEntry = timeEntryRepository.create(timeEntryToCreate);
         actionCounter.increment();
         timeEntrySummary.record(timeEntryRepository.list().size());
+
         ResponseEntity response = new ResponseEntity(createdEntry, HttpStatus.CREATED);
         return response;
     }
